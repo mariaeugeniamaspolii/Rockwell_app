@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Rockwell app",
+    "slug": "Rockwell app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/rockwellLogo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "demo",
+    "splash": {
+      "image": "./assets/img/rockwellLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/rockwellLogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img/rockwellLogo.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
