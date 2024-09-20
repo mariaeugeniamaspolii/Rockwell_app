@@ -8,7 +8,7 @@ node_modules/
 dist/
 web-build/
 
-# Native
+# Native build files
 *.orig.*
 *.jks
 *.p8
@@ -16,20 +16,21 @@ web-build/
 *.key
 *.mobileprovision
 
-# Metro
+# Metro bundler
 .metro-health-check*
 
-# debug
+# Debug logs
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# macOS system files
 .DS_Store
 *.pem
 
-# local env files
+# Local environment files
 .env*.local
+.env
 
-# typescript
+# TypeScript build info
 *.tsbuildinfo

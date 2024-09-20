@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Rockwell app",
-    "slug": "Rockwell app",
+    "slug": "rockwell-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/img/rockwellLogo.png",
@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/img/rockwellLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mariamaspoli.rockwellapp"
     },
     "web": {
       "favicon": "./assets/img/rockwellLogo.png",
@@ -30,6 +31,15 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ae9a61e5-91d8-4fbd-bbf0-4e9c13af14cb"
+      }
+    },
+    "owner": "mariamaspoli"
   }
 }
